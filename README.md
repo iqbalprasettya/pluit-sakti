@@ -1,2 +1,0 @@
-# pluit-sakti
-# pluit-sakti
