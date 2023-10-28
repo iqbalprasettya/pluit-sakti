@@ -9,6 +9,15 @@ Design Slicing Test - Frontend Developer
 5. OwlCarousel
 6. Animate On Scroll
 
+# Halaman Yang di buat
+1. Beranda
+2. Detail film
+3. Cari film
+4. Daftar film mendatang
+5. Daftar film terpopuler
+6. Daftar film sedang tayang
+
+
 # Tahap Pengerjaan
 
 1. Di tahap halaman home saya gunakan component component navbar dan row dari framework Bootstrap. di bagian hero section atau banner saya gunakan library Animate On Scroll, untuk bagian list film saya gunakan library OwlCarousel untuk slidernya
