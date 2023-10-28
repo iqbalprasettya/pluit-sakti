@@ -15,4 +15,4 @@ Design Slicing Test - Frontend Developer
 2. halaman Detail film dengan component yang sama dari Bootstrap. untuk trailer di ambil dari embed youtube, di bagian section Aktor saya gunakan OwlCarousel lagi untuk slidernya dan saya custom dots serta navnya agar sesuai dengan desain yang diminta
 3. di halaman Sedang tayang, Terpopuler, Dan Mendatang masih dengan component yang sama hanya saja tidak mengunakan slider
 4. di halaman search saya buat semirip mungkin dengan desain tetapi untuk fitur pencarian nya tidak jalan begitu juga di bagian genre untuk input select nya
-5. itu saja yang saya bisa buat di waktu 12jam, sebisanya untuk saya buat semirip mungkin dan se Responsive mungkin, semoga bisa menjadi bahan pertimbangan bpk/ibu.
+5. itu saja yang saya bisa buat dalam 12jam, saya sudah berusaha buat semirip mungkin dan se Responsive mungkin, semoga bisa menjadi bahan pertimbangan bpk/ibu.
