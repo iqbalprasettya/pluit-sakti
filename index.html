@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Peluit Sakti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="sedang-tayang.html">Sedang Tayang</a>
+            <a class="nav-link" href="terpopuler.html">Terpopuler</a>
+            <a class="nav-link" href="mendatang.html">Mendatang</a>
+          </div>
+          <form class="search" role="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="me-2" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="hero-carousel" class="owl-carousel owl-theme movie-carousel">
+      <div class="background-banner">
+        <div class="hero-text container text-white">
+          <p class="genre mb-2" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">ADVENTURE • ACTION • HISTORY</p>
+          <h1 class="fw-bold" data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">Indiana Jones and the Dial of Destiny</h1>
+          <div class="rating-usia text-center mb-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="130">
+            <p class="fw-bold">16+</p>
+          </div>
+          <div class="rating" data-aos="fade-up" data-aos-duration="700" data-aos-delay="170">
+            <p><i class="fa-solid fa-star"></i> <span>9.0</span> 2023 | 2j 35m</p>
+          </div>
+          <div class="sinopsis" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
+            <p>
+              Menemukan dirinya berada di era baru, dan mendekati masa pensiun, Indy bergulat dengan dunia yang tampaknya sudah melampaui batasnya. Namun saat tentakel kejahatan yang sangat familiar kembali dalam wujud rival lamanya, Indy
+              harus mengenakan topinya dan mengambil cambuknya sekali lagi untuk memastikan artefak kuno dan kuat tidak jatuh ke tangan yang salah.
+            </p>
+            <p class="pemeran"><span>Dibintangi : </span>Winona Ryder, David Harbour, Millie Bobby Brown</p>
+          </div>
+          <a href="detail-movie.html" class="btn btn-custom" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300"><i class="fa-regular fa-eye"></i>Lihat Film</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="sedangtayang" class="sedang-tayang">
+      <div class="container text-white pt-5">
+        <div class="head d-flex justify-content-between">
+          <h3 class="fw-bold">Sedang Tayang</h3>
+          <a href="sedang-tayang.html" class="btn btn-custom">Lihat Banyak <i class="fa-solid fa-angle-right"></i></a>
+          <a href="sedang-tayang.html" class="mobile"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div id="owl-carousel" class="owl-carousel owl-theme movie-carousel col-md-5">
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie3.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Titans</h6>
+                <p>2018 <span>|</span> 4 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie4.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Wednesday</h6>
+                <p>2022 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie5.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie6.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">The Whitcher</h6>
+                <p>2019 <span>|</span> 2 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="terpopuler" class="terpopuler">
+      <div class="container text-white pt-5">
+        <div class="head d-flex justify-content-between">
+          <h3 class="fw-bold">Terpopuler</h3>
+          <a href="terpopuler.html" class="btn btn-custom">Lihat Banyak <i class="fa-solid fa-angle-right"></i></a>
+          <a href="terpopuler.html" class="mobile"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div id="owl-carousel" class="owl-carousel owl-theme movie-carousel col-md-5">
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie3.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Titans</h6>
+                <p>2018 <span>|</span> 4 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie4.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Wednesday</h6>
+                <p>2022 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie5.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie6.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">The Whitcher</h6>
+                <p>2019 <span>|</span> 2 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="mendatang" class="mendatang">
+      <div class="container text-white pt-5">
+        <div class="head d-flex justify-content-between">
+          <h3 class="fw-bold">Mendatang</h3>
+          <a href="mendatang.html" class="btn btn-custom">Lihat Banyak <i class="fa-solid fa-angle-right"></i></a>
+          <a href="mendatang.html" class="mobile"><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div id="owl-carousel" class="owl-carousel owl-theme movie-carousel col-md-5">
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie3.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Titans</h6>
+                <p>2018 <span>|</span> 4 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie4.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Wednesday</h6>
+                <p>2022 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie5.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie6.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">The Whitcher</h6>
+                <p>2019 <span>|</span> 2 Season</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie1.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Baby Driver</h6>
+                <p>2017 <span>|</span> 1h 53m</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail-movie.html" class="text-decoration-none">
+            <div class="movie-item">
+              <img src="assets/img/movie/movie2.png" alt="" class="img-fluid" />
+              <div class="info-text">
+                <h6 class="fw-bold">Squid Game</h6>
+                <p>2017 <span>|</span> 1 Season</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="genre">
+      <div class="container text-white py-5">
+        <h3 class="mb-3">Genre</h3>
+        <div class="genre-item">
+          <div class="my-3 mx-1">
+            <a href="">Ation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Adventure</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Animation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Comedy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Crime</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Documentary</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Drama</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Family</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Fantasy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Ation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Adventure</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Animation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Comedy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Crime</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Documentary</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Drama</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Family</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Fantasy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Ation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Adventure</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Animation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Comedy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Crime</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Documentary</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Drama</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Family</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Fantasy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Ation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Adventure</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Animation</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Comedy</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Crime</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Documentary</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Drama</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Family</a>
+          </div>
+          <div class="my-3 mx-1">
+            <a href="">Fantasy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container text-white py-5">
+        <div class="row">
+          <div class="footer-item col-lg-3 col-md-6 mb-4">
+            <li class="mb-2"><a href="" class="text-decoration-none">FAQ</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Relasi Investor</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Cara Menonton</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Informasi Perusahaan</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Hanya di Pluit Sakti</a></li>
+          </div>
+          <div class="footer-item col-lg-3 col-md-6 mb-4">
+            <li class="mb-2"><a href="" class="text-decoration-none">Pusat Bantuan</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Pekerjaan</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Aturan Penggunaan</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Kontak Kami</a></li>
+          </div>
+          <div class="footer-item col-lg-3 col-md-6 mb-4">
+            <li class="mb-2"><a href="" class="text-decoration-none">Akun</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Privasi</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Tes Kecepatan</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Pusat Media</a></li>
+            <li class="mb-2"><a href="" class="text-decoration-none">Pengaturan Kuki</a></li>
+          </div>
+          <div class="footer-item col-lg-3 col-md-6">
+            <div class="download-app mb-3">
+              <h4>Dapatkan Aplikasi</h4>
+              <li class="mb-2"><img src="assets/img/app-store.png" alt="" class="img-fluid" /></li>
+              <li class="mb-2"><img src="assets/img/playstore.png" alt="" class="img-fluid" /></li>
+            </div>
+            <div class="social-links">
+              <p class="mb-2">Ikuti Kami</p>
+              <a href="https://github.com/iqbalprasettya/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://github.com/iqbalprasettya/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://github.com/iqbalprasettya/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://github.com/iqbalprasettya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/iqbalprasettya/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright py-5">
+          <div class="head position-relative">
+            <div class="position-absolute start-0 mt-2"><img src="assets/img/logo-sec.png" alt="" class="img-fluid" style="filter: grayscale(1)" /> <span>@ 2023. All rights reserved.</span></div>
+            <div class="position-absolute top-0 end-0 mt-3">
+              <div class="social-links">
+                <a href="" class="text-decoration-none text-white mx-2">Akun</a>
+                <a href="" class="text-decoration-none text-white mx-2">Privasi</a>
+                <a href="" class="text-decoration-none text-white mx-2">Tes Kecepatan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init();
+
+      $("#owl-carousel, #owl-carousel3").owlCarousel({
+        loop: false,
+        autoplay: false,
+        autoplayHoverPause: true,
+        margin: 30,
+        nav: false,
+        dots: false,
+        items: 2,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          1000: {
+            items: 6,
+          },
+        },
+      });
+      $("#hero-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        nav: false,
+        items: 1,
+        dots: false,
+      });
+    </script>
+  </body>
+</html>
